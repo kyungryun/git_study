@@ -4,8 +4,10 @@
 
 커밋 로그 확인
 - git log
-
-커밋에 관련된 파일 확인
+    - 커밋에 관련된 파일 확인
+      - git log --stat
+    - 한 줄에 한 커밋씩 나타내기
+      - git log --online
 - git log --stat
 
 변경 사항 확인 하기
