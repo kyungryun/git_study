@@ -19,3 +19,11 @@
 최신 커밋 되돌리기
 - git reset HEAD^
 
+**reset 명령어에 사용할 수 있는 옵션**
+| 옵션  | 내용 |
+| :--- | :--- |
+| --soft HEAD^ | 최근 커밋을 하기 전 상태 |
+| --mixed HEAD^ | 최근 커밋과 스테이징을 하기 전 **git reset 명령의 default**
+| --hard HEAD^ | 최근 커밋과 스테이징, 파일 수정을 하기 전
+
+
