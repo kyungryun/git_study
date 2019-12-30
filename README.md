@@ -4,13 +4,19 @@
 
 커밋 로그 확인
 - git log
+
 커밋에 관련된 파일 확인
 - git log --stat
+
+변경 사항 확인 하기
+1. 작업 트리에 있는 파일과 스테이지에 있는 파일을 비교
+2. 스테이지에 있는 파일과 저장소에 있는 최신 커밋을 비교
+- git diff
 
 커밋 메시지 수정
 - git commit --amend
 
-수정한 파일 되돌리기
+작업 트리에서 수정한 파일 되돌리기
 - git checkout -- file
 
 스테이징 되돌리기
@@ -24,8 +30,16 @@
 옵션  | 내용 
 ----- | ----- 
 --soft HEAD^ | 최근 커밋을 하기 전 상태 
---mixed HEAD^ | 최근 커밋과 스테이징을 하기 전 **reset HEAD^ 디폴트 옵션**
+--mixed HEAD^ | 최근 커밋과 스테이징을 하기 전 **reset HEAD^ 기본 옵션**
 --hard HEAD^ | 최근 커밋과 스테이징, 파일 수정을 하기 전
+
+
+## checkout, reset HEAD, reset HEAD^ 비교
+
+git checkout | git reset HEAD | git reset HEAD^
+------------ | -------------- | ---------------
+변경 사항 되돌리기 | 스테이징 취소 하기 | 커밋&스테이징 취소하기
+
 
 특정 커밋으로 되돌리기
 - git reset 커밋 해시
