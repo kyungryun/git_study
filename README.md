@@ -1,6 +1,12 @@
-# Do It Git 스터디 내용 정리
+# Do It Git 책 공부 내용 정리
 
-git 공부 내역 정리
+## Git 명령어
 
-test
-test2
+커밋 로그 확인
+- git log
+커밋에 관련된 파일 확인
+- git log --stat
+
+커밋 메시지 수정
+- git commit --amend
+
