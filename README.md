@@ -10,3 +10,12 @@
 커밋 메시지 수정
 - git commit --amend
 
+수정한 파일 되돌리기
+- git checkout -- file
+
+스테이징 되돌리기
+- git reset HEAD file
+
+최신 커밋 되돌리기
+- git reset HEAD^
+
