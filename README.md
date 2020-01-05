@@ -7,7 +7,10 @@
     - 커밋에 관련된 파일 확인
       - git log --stat
     - 한 줄에 한 커밋씩 나타내기
-      - git log --online
+      - git log --oneline
+    - 각 브랜치의 커밋 내용 보기
+      - git log --oneline --branches
+      
 - git log --stat
 
 변경 사항 확인 하기
@@ -48,3 +51,16 @@ git checkout | git reset HEAD | git reset HEAD^
 
 커밋 삭제하지 않고 되돌리기
 - git revert
+
+## Branch
+
+현재 브랜치 확인
+- git branch
+
+새로운 브랜치 만들기
+- git branch name
+
+브랜치 이동
+- git checkout name
+
+
