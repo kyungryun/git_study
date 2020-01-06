@@ -63,4 +63,6 @@ git checkout | git reset HEAD | git reset HEAD^
 브랜치 이동
 - git checkout name
 
+- 작성중
+
 
